@@ -14,7 +14,7 @@ local options = {
     clipboard = "unnamedplus",   -- allows the terminal to access the system clipboard
     fileencoding = "utf-8",      -- the encoding written to a file
     swapfile = false,            -- create a swap file
-    --guifont = "",              -- font used in neovim
+    guifont = "Liberation Mono",              -- font used in neovim
     cursorline = true,           -- highlight the screen line of the cursor
 
 }

@@ -14,9 +14,9 @@ local electricGreen = '#00ffdf'
 -- Color variable
 
 local background = { 
-    primary = '#1e1e1e',
-    secondary = '#333333',
-    secondaryDarker = '#222222',
+    primary = purple90, -- '#1e1e1e',
+    secondary = purple80, -- '#333333',
+    secondaryDarker = purple90, --'#222222',
 }
 
 local text = {
@@ -38,7 +38,11 @@ local colors = {
     repeat_ = electricGreen,
     special = purple30,
     statement = purple20,
+    storageClass = purple50,
     string = purple30,
+    structure = purple20,
+    type_ = purple50,
+    typedef = purple50,
 }
 
 -- Highlights
@@ -70,4 +74,8 @@ set_hl(0, 'Operator', { fg = colors.operator, bold = true })
 set_hl(0, 'Repeat', { fg = colors.repeat_, bold = true })
 set_hl(0, 'Special', { fg = colors.special })
 set_hl(0, 'Statement', { fg = colors.statement, bold = true })
+set_hl(0, 'StorageClass', { fg = colors.storageClass })
 set_hl(0, 'String', { fg = colors.string })
+set_hl(0, 'Structure', { fg = colors.structure, bold = true })
+set_hl(0, 'Type', { fg = colors.type_ })
+set_hl(0, 'TypeDef', { fg = colors.typedef })
